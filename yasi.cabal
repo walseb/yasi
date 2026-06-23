@@ -50,7 +50,7 @@ library
   build-depends:
     base >=4.16 && <5,
     ghc-hs-meta ^>=0.1,
-    template-haskell >=2.16 && <2.24,
+    template-haskell >=2.16 && <2.25,
     text >=1.2 && <2.2,
     text-builder-linear ^>=0.1,
     text-display ^>=1,

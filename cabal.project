@@ -1,4 +1,13 @@
-packages: .
+packages:
+  .
+  ../ghc-hs-meta
 
 if impl(ghc >=9.12)
-  allow-newer: tasty-hedgehog:template-haskell, hedgehog:template-haskell
+  allow-newer:
+    tasty-hedgehog:template-haskell,
+    hedgehog:template-haskell,
+    ghc-hs-meta:base,
+    ghc-hs-meta:template-haskell,
+    ghc-hs-meta:ghc-boot,
+    ghc-hs-meta:ghc,
+    ghc-boot:base
